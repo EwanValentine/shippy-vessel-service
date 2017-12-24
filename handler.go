@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/EwanValentine/shippy/vessel-service/proto/vessel"
+	pb "github.com/EwanValentine/shippy-vessel-service/proto/vessel"
 	"golang.org/x/net/context"
 	"gopkg.in/mgo.v2"
 )

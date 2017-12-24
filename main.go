@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/EwanValentine/shippy/vessel-service/proto/vessel"
-	"github.com/micro/go-micro"
 	"os"
-)
 
+	pb "github.com/EwanValentine/shippy-vessel-service/proto/vessel"
+	"github.com/micro/go-micro"
+)
 
 const (
 	defaultHost = "localhost:27017"
