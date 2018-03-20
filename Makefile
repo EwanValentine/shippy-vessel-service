@@ -1,8 +1,8 @@
 build:
 	protoc -I. --go_out=plugins=micro:. \
     proto/vessel/vessel.proto
-	docker build -t ewanvalentine/vessel:latest .
-	docker push ewanvalentine/vessel:latest
+	docker build -t eu.gcr.io/shippy-freight/vessel:latest .
+	docker push eu.gcr.io/shippy-freight/vessel:latest
 
 run:
 	docker run -d --net="host" \
